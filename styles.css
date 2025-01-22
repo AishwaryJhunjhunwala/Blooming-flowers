@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #E05780;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+/* Header */
+.header {
+    background-color: #FFC2D4;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #B9375E;
+}
+
+.header p {
+    color: #555;
+    font-size: 1.2em;
+}
+/* Body */
+
+.body {
+    margin: auto;
+     background-image: url('img4.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100vw;
+     height: 220vh;
+}
+.imp{
+    font-family: cursive;
+    font-weight: 500;
+    color: #5e1228;
+}
+
+
+
+.body h2 {
+    color: #5e1228;
+   
+    padding-bottom: 10px;
+    text-align: center;
+}
+    
+.body h3{
+    color: #800F2F;
+}
+.body h5{
+    color: #bcb8b1;
+}
+.body p{
+    color: #A4133C;
+}
+.body h4{
+    color: #800F2F;
+}
+
+.contact-section {
+    padding: 50px 30px;
+    background-color:#fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+/* Section Title */
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Contact Details */
+.contact-details {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+} */
+
+/* Contact Form */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+}
+
+.contact-form textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B9375E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);}
+.products{
+    color: #ae1a26;
+   text-align: center;
+    font-family: cursive;
+    /* margin: 650px; */
+    /* padding-left: 600px;
+     */
+    
+
+}
+.products:hover{
+    color: black;
+
+
+}
+.image{
+    display: flex;
+      justify-content: center; 
+      align-items: center;
+      flex-wrap: wrap;
+}
+.image img{
+    max-width: 100%; 
+      height: auto;  
+      border: 2px solid #ccc;  
+      border-radius: 10px; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      transition: 400ms;
+    
+}
+.photo:hover{
+     transform: scale(1.03);
+  /*  filter:grayscale(02.5em)
+ */
+ 
+}
+/* Footer Styles */
+.footer {
+    background-color: #FFC2D4;
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.lovepik.com/background/20211021/large/lovepik-beautiful-flower-background-image_400126882.jpg');
+    background-size: cover;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-socials {
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: #800F2F;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #ff7700;
+}
